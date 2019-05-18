@@ -1,9 +1,9 @@
 body
 {
-  background-image: url("background.jpg");
+  background-image: url("picture/background.jpg");
   background-repeat: no-repeat;
   background-position: left top;
-  background-size: 100%;
+  background-size: cover;
 }
 
 .title
@@ -19,16 +19,36 @@ body
 .game
 {
   position: absolute;
-  left: 40%;
-  top: 55%;
+  left: 45%;
+  top: 60%;
+  transform: translate(-50%, -50%);
   font-size: 24px;
   color: white;
 }
 .graves
 {
   position: absolute;
-  left: 50%;
-  top: 58.3%;
+  left: 55%;
+  top: 60%;
+  transform: translate(-50%, -50%);
   color: white;
   font-size: 24px;
+}
+.graves:hover
+{
+  font-size: 27px;
+}
+
+.online_snake_and_seed
+{
+  position: absolute;
+  left: 50%;
+  top: 70%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+  color: white;
+}
+.online_snake_and_seed:hover
+{
+  font-size: 28px;
 }
